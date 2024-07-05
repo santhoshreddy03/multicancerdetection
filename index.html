@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cancer Projects</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="title"><h2>Multi Cancer Detection</h2></div>
+    </div>
+    <div class="container">
+      <div
+        class="project first"
+        onclick="redirectTo('https://breastcancerpredictions.streamlit.app')"
+      >
+        <img src="images/breast cancer.jpeg" alt="Breast Cancer" />
+        <div class="title">Breast Cancer</div>
+      </div>
+      <div
+        class="project"
+        onclick="redirectTo('https://lungcancerpredictor.streamlit.app')"
+      >
+        <img src="images/lungcancer.jpeg" alt="Lung Cancer" />
+        <div class="title">Lung Cancer</div>
+      </div>
+      <div class="project" onclick="redirectTo('https://www.google.com')">
+        <img src="images/skincancerr.jpeg" alt="Skin Cancer" />
+        <div class="title">Skin Cancer</div>
+      </div>
+      <div class="project" onclick="redirectTo('https://www.google.com')">
+        <img src="images/lukemiax.jpeg" alt="Leukemia" />
+        <div class="title">Leukemia</div>
+      </div>
+    </div>
+
+    <script>
+      function redirectTo(url) {
+        window.location.href = url;
+      }
+    </script>
+  </body>
+</html>
